@@ -1,0 +1,9 @@
+#!name=阿里云盘签到模块
+#!desc=阿里云盘签到-lowking-v1.0.0 打开https://auth.aliyundrive.com/v2/account/token 获取 token
+#!author=lowking
+
+[Script]
+# 安装后打开：https://auth.aliyundrive.com/v2/account/token 获取token
+# 添加boxjs订阅： https://raw.githubusercontent.com/lowking/Scripts/master/lowking.boxjs.json
+阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/JaviYoung/VarietyShop/Surge/script/aliYunPanCheckIn.js
+
